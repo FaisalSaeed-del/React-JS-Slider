@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import People from "./People";
 import data from "./Data";
+
 function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
@@ -19,7 +20,7 @@ function App() {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(slider);
   }, [index]);
 
