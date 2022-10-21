@@ -1,4 +1,4 @@
-/*
+/* 
 =============== 
 Variables
 ===============
@@ -202,7 +202,7 @@ Variables
     margin-top: 1rem;
     color: var(--clr-primary-5);
   }
-  .prev,
+  /* .prev,
   .next {
     position: absolute;
     top: 200px;
@@ -222,8 +222,8 @@ Variables
   .prev:hover,
   .next:hover {
     background: var(--clr-primary-5);
-  }
-  .prev {
+  } */
+  /* .prev {
     left: 0;
   }
   .next {
@@ -239,8 +239,8 @@ Variables
       height: 2rem;
       font-size: 1.5rem;
     }
-  }
-  article {
+  } */
+  /* article {
     position: absolute;
     top: 0;
     left: 0;
@@ -255,12 +255,11 @@ Variables
   }
   article.lastSlide {
     transform: translateX(-100%);
-  }
-  article.nextSlide {
+  } */
+  /* article.nextSlide {
     transform: translateX(100%);
-  }
+  } */
 
 
-  /* Slider Component */
 
   
